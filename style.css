@@ -45,7 +45,7 @@ nav.mb-4 {
 body .content-banner-small {
   /* Full height */
   height:50vh;
-  background-image: url('../images/background2.jpg');
+  background-image: url('images/background2.jpg');
   background-size: cover;
 }
 
