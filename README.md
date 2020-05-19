@@ -8,12 +8,12 @@ You can check it out online https://jhon-ran.github.io/UI_event/.
 - Navbar
 - Footer
 - Comments
-Forms:
+### Forms:
 - Login
 - Sign up
 - Forgot password
 - Change password
-Cards:
+### Cards:
 - Elements list
 - Single card
 - Cards list
