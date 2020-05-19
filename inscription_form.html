@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/07ff07af43.js" crossorigin="anonymous"></script>
+
+
+  <title>Sign up</title>
+</head>
+<body>
+
+  <div class="form-structure-inscription">
+    <form class="" action="index.html" method="post">
+      <h2>Sign up</h2>
+      <div class="form-group col-md-6">
+        <label for="form1-name" class="col-form-label">Name</label>
+        <input type="text" class="form-control" id="form1-name" placeholder="Name">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="form1-email" class="col-form-label">Email</label>
+        <input type="email" class="form-control" id="form1-email" placeholder="Email">
+      </div>
+      <div class="col-md-6 mb-4">
+        <label for="form1-password">Password</label>
+        <input type="password" class="form-control" id="form1-password" placeholder="Password" required>
+      </div>
+      <div class="col-md-3 mb-4">
+        <label for="form1-state">State</label>
+        <select class="custom-select" id="form1-state">
+          <option value="" selected>Select</option>
+          <option value="1">Paris</option>
+          <option value="2">London</option>
+          <option value="3">Texas</option>
+          <option value="4">New York</option>
+        </select>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <label for="form1-zip">Zip code</label>
+        <input type="text" class="form-control" id="form1-zip" placeholder="Zip" required>
+      </div>
+      <button type="button" class="btn btn-primary">Send</button>
+    </form>
+  </div>
+
+  
+</body>
+</html>
