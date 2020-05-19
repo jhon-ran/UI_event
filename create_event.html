@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/07ff07af43.js" crossorigin="anonymous"></script>
+
+
+  <title>Create event</title>
+</head>
+<body>
+
+  <h2 class="mt-2">Create event form</h2>
+  <hr> 
+
+  <form>
+    <fieldset>
+      <div class="form-group row">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Name of event</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Event name">
+        <small id="emailHelp" class="form-text text-muted">Use a short name that describes well your event.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Price</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Price">
+      </div>
+      <div class="form-group">
+        <label for="exampleSelect1">Select a category</label>
+        <select class="form-control" id="exampleSelect1">
+          <option>Classes</option>
+          <option>Shows</option>
+          <option>Concerts</option>
+          <option>Meet ups</option>
+          <option>Conferences</option>
+          <option>Sports</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <label for="exampleTextarea">Description</label>
+        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputFile">Upload a photo</label>
+        <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+        <small id="fileHelp" class="form-text text-muted">Max. 5GB.</small>
+      </div>
+
+      <fieldset class="form-group">
+        
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" value="" checked="">
+            I confirm I'm using copyright free photos
+          </label>
+        </div>
+        <div class="form-check disabled">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" value="" checked="">
+            I confirm the information is correct
+          </label>
+        </div>
+      </fieldset>
+      <fieldset class="form-group">
+    
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </fieldset>
+  </form>
+  
+</body>
+</html>

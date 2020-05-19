@@ -120,6 +120,15 @@ body .content-banner-small {
 }
 /*****************Forms ***********************/
 
-.far fa-address-book{
-  height: 10px;
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10vh;
 }
